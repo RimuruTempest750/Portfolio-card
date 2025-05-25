@@ -49,17 +49,17 @@
 - Open styles.css
 
 ```css
-26 .background-image {
-27     position: absolute;
-28     top: 0;
-29     left: 0;
-30     width: 100%;
-31     height: 100%;
-32     background: url('YOUR_LINK') no-repeat center center fixed; /** Update LINK */
-33     background-size: cover;
-34     opacity: 0.2;
-35     z-index: -1;
-36 }
+23 .background-image {
+24     position: absolute;
+25     top: 0;
+26     left: 0;
+27     width: 100%;
+28     height: 100%;
+29     background: url('YOUR_LINK') no-repeat center center fixed; /** Update LINK */
+30     background-size: cover;
+31     opacity: 0.2;
+32     z-index: -1;
+33 }
 ```
 - Demo : 
 
