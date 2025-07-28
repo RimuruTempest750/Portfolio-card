@@ -1,5 +1,5 @@
 <h1 align="center">Script for a Portfolio-card !</h1>
-<em><h5 align="center">(Programming Language - Html | Css)</h5></em>
+<em><h5 align="center">(Programming Language - Html | Css | JavaScript)</h5></em>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/RimuruTempest750/Portfolio-card">
@@ -45,21 +45,48 @@
 35                    GitHub
 36                </a>
 ```
+
+```html
+96                <a href="YOUR_PROJECT_LINK" target="_blank" class="project-btn live-btn">🌐 Live Demo</a>
+97                <a href="YOUR_GITHUB_LINK" target="_blank" class="project-btn code-btn">📁 View Code</a>
+```
+
+```html
+109               <a href="YOUR_GITHUB_LINK" target="_blank" class="project-btn code-btn">📁 View Code</a>
+```
+
+```html
+116            <div class="page-content" id="contact-page">
+117                <div class="contact-info">
+118                    <div class="contact-item">
+119                        <h3>📧 Email</h3>
+120                        <p>YOUR_EMAIL</p>
+121                    </div>
+122                    
+123                    <div class="contact-item">
+124                        <h3><span class="discord-icon">💬</span> Discord</h3>
+125                        <p>YOUR_DISCORD_TAG</p>
+126                    </div>
+127                    
+128                </div>
+129            </div>
+```
+
 - You will need to update these files :
 - Open styles.css
 
 ```css
-23 .background-image {
-24     position: absolute;
-25     top: 0;
-26     left: 0;
-27     width: 100%;
-28     height: 100%;
-29     background: url('YOUR_LINK') no-repeat center center fixed; /** Update LINK */
-30     background-size: cover;
-31     opacity: 0.2;
-32     z-index: -1;
-33 }
+19 .background-image {
+20     position: absolute;
+21     top: 0;
+22     left: 0;
+23     width: 100%;
+24     height: 100%;
+25     background: url('YOUR_LINK') no-repeat center center fixed; /** Update LINK */
+26     background-size: cover;
+27     opacity: 0.2;
+28     z-index: -1;
+29 }
 ```
 - Demo : 
 
