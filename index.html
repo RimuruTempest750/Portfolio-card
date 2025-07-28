@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Update NAME_SITE -->
-        <meta property="og:title" content="NAME_SITE - Info">
-        <!-- Update NAME_SITE -->
-        <meta property="og:description" content="NAME_SITE site and info for developement !">
-        <meta property="og:image" content="assets/img/logo.png"
-        <meta property="og:type" content="website">
-        <!-- Update NAME_SITE -->
-        <meta property="og:url" content="https://NAME_SITE.NAME_SITE/"
-    
-        <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <!-- Update NAME_SITE -->
-        <title>NAME_SITE - Info</title>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Update NAME_SITE -->
+         <meta property="og:title" content="NAME_SITE - Info">
+         <!-- Update NAME_SITE -->
+         <meta property="og:description" content="NAME_SITE site and info for developement !">
+         <meta property="og:image" content="assets/img/logo.png"
+         <meta property="og:type" content="website">
+         <!-- Update NAME_SITE -->
+         <meta property="og:url" content="https://NAME_SITE.NAME_SITE/"
+   
+         <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+         <link rel="stylesheet" href="assets/css/styles.css">
+         <!-- Update NAME_SITE -->
+         <title>NAME_SITE - Info</title>
     </head>
     
 <body>     
@@ -38,44 +38,104 @@
         </div>
 
         <div class="card skills-card">
-            <h2 class="fadeInText">🔥 My Skills</h2>
-            <div class="skills">
-                <div class="skill-category">
-                    <h3>💻 Programming</h3>
-                    <ul>
-                        <li>🌐 HTML, CSS, JavaScript</li>
-                        <li>⚡ Node.js</li>
-                        <li>🐍 Python, SQL</li>
-                        <li>🔧 SysAdmin</li>
-                    </ul>
-                </div>
+            <h2 class="fadeInText">🔥 My Information</h2>
+            
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-page="skills">Skills</button>
+                <button class="nav-btn" data-page="projects">Projects</button>
+                <button class="nav-btn" data-page="contact">Contact</button>
+            </div>
 
-                <div class="skill-category">
-                    <h3>🛠 Tools & Database</h3>
-                    <ul>
-                        <li>📌 GitHub, Visual Studio Code, Sublime Text</li>
-                        <li>🌍 Nginx / Apache</li>
-                        <li>🔐 PyInstaller, discord.js</li>
-                        <li>☁️ Cloudflare</li>
-                        <li>📊 phpMyAdmin, MariaDB</li>
-                    </ul>
-                </div>
+            <div class="page-content active" id="skills-page">
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>💻 Programming</h3>
+                        <ul>
+                            <li>🌐 HTML, CSS, JavaScript</li>
+                            <li>⚡ Node.js, Lua / GLua</li>
+                            <li>🐍 Python, Shell, SQL</li>
+                            <li>🔧 SysAdmin</li>
+                        </ul>
+                    </div>
 
-                <div class="skill-category">
-                    <h3>⚙️ OS & Server Management</h3>
-                    <ul>
-                        <li>🐧 Linux</li>
-                        <li>🖥 Windows</li>
-                        <li>🛠 Proxmox</li>
-                        <li>🚀 Pterodactyl</li>
-                    </ul>
+                    <div class="skill-category">
+                        <h3>🛠 Tools & Database</h3>
+                        <ul>
+                            <li>📌 GitHub, Visual Studio Code, Sublime Text</li>
+                            <li>🌍 Cisco, Nginx / Apache, NPM</li>
+                            <li>🔐 PyInstaller, discord.js, Electron, Axios</li>
+                            <li>☁️ Cloudflare, Iptables</li>
+                            <li>📊 phpMyAdmin, MongoDB, MariaDB</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>⚙️ OS & Server Management</h3>
+                        <ul>
+                            <li>🐧 Linux</li>
+                            <li>🖥 Windows</li>
+                            <li>💻 Raspberry Pi OS</li>
+                            <li>🛠 Proxmox</li>
+                            <li>🚀 Pterodactyl</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-content" id="projects-page">
+                <div class="projects">
+                    <div class="project-item">
+                        <h3>🚀 Portfolio Website</h3>
+                        <p>Personal portfolio built with HTML, CSS, and JavaScript. Features responsive design and modern animations.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="YOUR_PROJECT_LINK" target="_blank" class="project-btn live-btn">🌐 Live Demo</a>
+                            <a href="YOUR_GITHUB_LINK" target="_blank" class="project-btn code-btn">📁 View Code</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <h3>🤖 Mudae cheat</h3>
+                        <p>A selfbot for automating Mudae commands on Discord.</p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Discord.js-selfbot-v13</span>
+                            <span class="tag">Json</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="YOUR_GITHUB_LINK" target="_blank" class="project-btn code-btn">📁 View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-content" id="contact-page">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p>YOUR_EMAIL</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3><span class="discord-icon">💬</span> Discord</h3>
+                        <p>YOUR_DISCORD_TAG</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2025 <a href="https://github.com/RimuruTempest750" target="_blank">Rimuru Tempest</a> | All Rights Reserved</p>
+        <a href="https://github.com/RimuruTempest750" target="_blank" class="footer-btn">
+            <p>&copy; 2025 RimuruTempest | All Rights Reserved</p>
+        </a>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
